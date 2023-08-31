@@ -38,7 +38,7 @@ The rules:
 
 - **noisy enemy positions**: bots can know their enemies' exact positions only when the enemies are within a distance of **5** squares. If the enemies are further away than that, the bots have access only to a noisy position (more details [below](#is-noisy)).
 
-- **timeouts**: each bot has **3** seconds to return a valid move. If it doesn't return in time a random legal move is executed instead and an error is recorded.
+- **timeouts**: each bot has **3** seconds to return a valid move. If it doesn't return in time, a random legal move is executed instead and an error is recorded.
 
 - **illegal moves**: if a bot returns an illegal move, a random legal move is executed instead and an error is recorded.
 
